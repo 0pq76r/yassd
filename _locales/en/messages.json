@@ -1,0 +1,65 @@
+{
+    "command": {
+        "message": "Command:"
+    },
+    "buttonSave": {
+        "message": "Save"
+    },
+    "buttonDeleteProfile": {
+        "message": "Delete Profile"
+    },
+    "extText": {
+        "message": "Yet another superfluous stream detector"
+    },
+    "escapeMethod": {
+        "message": "Escape single quotes:"
+    },
+    "escapeMethodNone": {
+        "message": "Don't escape"
+    },
+    "escapeMethodWindows": {
+        "message": "Windows ' ⇒ ''"
+    },
+    "escapeMethodLinux": {
+        "message": "Linux ' ⇒ '\"'\"'"
+    },
+    "filterStreamURL": {
+        "message": "Filter Stream URL:"
+    },
+    "profileSelect": {
+        "message": "Select Profile:"
+    },
+    "profileSelectNew": {
+        "message": "new profile ..."
+    },
+    "profileName": {
+        "message": "Profile Name:"
+    },
+    "saveTo": {
+        "message": "Save to:"
+    },
+    "saveToFile": {
+        "message": "File"
+    },
+    "saveToClipboard": {
+        "message": "Clipboard"
+    },
+    "yassdMenuProfileList": {
+        "message": "Profile"
+    },
+    "yassdMenuAll": {
+        "message": "All tabs"
+    },
+    "yassdMenuAllClear": {
+        "message": "Clear all links"
+    },
+    "yassdMenuAllCopyAll": {
+        "message": "Copy all links"
+    },
+    "yassdMenuClear": {
+        "message": "Clear all links"
+    },
+    "yassdMenuCopyAll": {
+        "message": "Copy all links"
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>yassd</title>
+  </head>
+  <body>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <label for="profileSelect"></label>
+          </td>
+          <td>
+            <select id="profileSelect">
+              <option value="profileSelectNew"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="profileName"></label>
+          </td>
+          <td>
+            <input class="savable" id="profileName" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="saveTo"></label>
+          </td>
+          <td>
+            <select class="savable" id="saveTo">
+              <option value="saveToClipboard"></option>
+              <option value="saveToFile"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="filterStreamURL"></label>
+          </td>
+          <td>
+            <input class="savable" id="filterStreamURL" type="text">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="escapeMethod"></label>
+          </td>
+          <td>
+            <select class="savable" id="escapeMethod">
+              <option value="escapeMethodNone" default></option>
+              <option value="escapeMethodWindows"></option>
+              <option value="escapeMethodLinux"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="command"></label>
+          </td>
+          <td>
+            <textarea class="savable" id="command" rows="1" cols="30"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button id="buttonSave">
+              <label for="buttonSave"></label>
+            </button>
+            <button id="buttonDeleteProfile">
+              <label for="buttonDeleteProfile"></label>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="options.js"></script>
+  </body>
+</html>
